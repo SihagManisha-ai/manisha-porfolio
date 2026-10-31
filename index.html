@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Manisha Sihag | AI/ML Portfolio</title>
+
+    <meta name="description" content="Manisha Sihag - AI/ML Intern, Computer Engineering Graduate, Python and Machine Learning Enthusiast.">
+
+    <meta name="theme-color" content="#080711">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js"
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- LOADER -->
+    <div class="loader" id="loader">
+        <div class="loader-logo">M.</div>
+        <p>LOADING PORTFOLIO...</p>
+    </div>
+
+    <canvas id="three-canvas"></canvas>
+    <div class="background-glow"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            MANISHA<span>.</span>
+        </a>
+
+        <nav id="nav-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-button">Let's Talk ↗️</a>
+
+        <button class="menu-toggle" id="menu-toggle"
+                aria-label="Toggle navigation">☰</button>
+
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero section" id="home">
+
+            <div class="hero-content reveal">
+
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    OPEN TO ENTRY-LEVEL OPPORTUNITIES
+                </div>
+
+                <p class="eyebrow">HELLO, I'M MANISHA SIHAG</p>
+
+                <h1>
+                    Turning Ideas Into
+                    <span class="gradient-text">
+                        Intelligent Solutions.
+                    </span>
+                </h1>
+
+                <h2 class="hero-role">
+                    AI & Machine Learning Enthusiast
+                </h2>
+
+                <p class="hero-description">
+                    Computer Engineering diploma graduate and AI/ML Intern
+                    at Solitaire Infosys. Building my foundation in Python,
+                    SQL, Machine Learning and Data Analysis through
+                    hands-on learning and practical projects.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="primary-button">
+                        Explore My Work ↗️
+                    </a>
+
+                    <a href="#contact" class="secondary-button">
+                        Contact Me
+                    </a>
+
+                    <a href="resume.pdf" download
+                       class="secondary-button">
+                        Download Resume ↓
+                    </a>
+
+                </div>
+
+                <div class="hero-socials">
+
+                    <a href="https://www.linkedin.com/in/manisha-sihag-826b96426"
+                       target="_blank" rel="noopener">
+                        LinkedIn ↗️
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-visual reveal">
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="profile-frame">
+
+                    <img src="images/manisha-profile.jpeg"
+                         alt="Manisha Sihag professional profile photo">
+
+                </div>
+
+                <div class="floating-card card-python">
+                    <span>🐍</span> Python
+                </div>
+
+                <div class="floating-card card-ai">
+                    <span>✦</span> Artificial Intelligence
+                </div>
+
+                <div class="floating-card card-ml">
+                    <span>◈</span> Machine Learning
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-down">
+                SCROLL TO EXPLORE ↓
+            </a>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="section about-section" id="about">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">GET TO KNOW ME</p>
+
+                <h2>
+                    About <span class="gradient-text">Me</span>
+                </h2>
+
+                <p>My education, technical journey and career interests.</p>
+
+            </div>
+
+            <div class="about-card reveal">
+
+                <div class="about-number">01 / ABOUT</div>
+
+                <h3>
+                    Curious Mind. Technical Foundation.
+                    Growing Ambition.
+                </h3>
+
+                <p>
+                    I am Manisha Sihag, a Computer Engineering diploma
+                    graduate from Government Polytechnic, Mandi Adampur,
+                    Haryana.
+                </p>
+
+                <p>
+                    Currently, I am working as an AI/ML Intern at
+                    Solitaire Infosys, Mohali, where I am developing
+                    practical knowledge of Python programming, SQL,
+                    Artificial Intelligence and Machine Learning.
+                </p>
+
+                <p>
+                    My learning journey also includes data handling,
+                    Pandas, NumPy, basic database operations and
+                    computer applications.
+                </p>
+
+                <p>
+                    My goal is to grow as an AI/ML professional,
+                    strengthen my technical foundation and contribute
+                    to meaningful technology projects.
+                </p>
+
+                <div class="about-tags">
+                    <span>Continuous Learning</span>
+                    <span>Problem Solving</span>
+                    <span>AI & ML</span>
+                    <span>Python</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section class="section" id="skills">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">MY TECHNICAL TOOLKIT</p>
+
+                <h2>
+                    Technical <span class="gradient-text">Skills</span>
+                </h2>
+
+                <p>Technologies and tools I am learning and practicing.</p>
+
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Programming fundamentals and coding practice.</p>
+                    <span class="skill-level">Basic</span>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🤖</div>
+                    <h3>Machine Learning</h3>
+                    <p>Supervised learning and prediction fundamentals.</p>
+                    <span class="skill-level">Learning</span>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">✦</div>
+                    <h3>Artificial Intelligence</h3>
+                    <p>AI concepts and intelligent applications.</p>
+                    <span class="skill-level">Learning</span>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🐼</div>
+                    <h3>Pandas</h3>
+                    <p>DataFrames and CSV data handling.</p>
+                    <span class="skill-level">Learning</span>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🔢</div>
+                    <h3>NumPy</h3>
+                    <p>Arrays and numerical computing fundamentals.</p>
+                    <span class="skill-level">Learning</span>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">📊</div>
+                    <h3>Data Analysis</h3>
+                    <p>Data processing and basic analysis.</p>
+                    <span class="skill-level">Learning</span>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>SQL / MySQL</h3>
+                    <p>Basic SQL queries and database operations.</p>
+                    <span class="skill-level">Basic</span>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">💻</div>
+                    <h3>MS Office & Excel</h3>
+                    <p>Computer operations, data entry and formatting.</p>
+                    <span class="skill-level">Basic</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EXPERIENCE SECTION -->
+        <section class="section" id="experience">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">MY PROFESSIONAL JOURNEY</p>
+
+                <h2>
+                    Internship <span class="gradient-text">Experience</span>
+                </h2>
+
+            </div>
+
+            <div class="experience-card reveal">
+
+                <div class="experience-top">
+
+                    <div>
+                        <p class="eyebrow">AUGUST 2026 – PRESENT</p>
+                        <h3>AI/ML Intern</h3>
+                        <h4>Solitaire Infosys · Mohali, Punjab</h4>
+                    </div>
+
+                    <span class="experience-badge">Internship</span>
+
+                </div>
+
+                <p>
+                    Currently gaining practical technical training
+                    in Artificial Intelligence and Machine Learning.
+                </p>
+
+                <ul>
+                    <li>Learning Python programming fundamentals.</li>
+                    <li>Practicing basic SQL and MySQL queries.</li>
+                    <li>Studying Artificial Intelligence concepts.</li>
+                    <li>Understanding Machine Learning fundamentals.</li>
+                    <li>Practicing coding exercises and technical tasks.</li>
+                </ul>
+
+                <div class="experience-tags">
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>AI</span>
+                    <span>Machine Learning</span>
+                    <span>Data Analysis</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EDUCATION SECTION -->
+        <section class="section" id="education">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">ACADEMIC BACKGROUND</p>
+
+                <h2>
+                    My <span class="gradient-text">Education</span>
+                </h2>
+
+            </div>
+
+            <div class="education-card reveal">
+
+                <div class="education-icon">🎓</div>
+
+                <div>
+                    <p class="eyebrow">2022 – 2025</p>
+
+                    <h3>Diploma in Computer Engineering</h3>
+
+                    <p>
+                        Government Polytechnic, Mandi Adampur
+                    </p>
+
+                    <span>Three-Year Diploma Programme</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS SECTION -->
+        <section class="section" id="projects">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">PRACTICAL LEARNING</p>
+
+                <h2>
+                    Featured <span class="gradient-text">Projects</span>
+                </h2>
+
+                <p>
+                    Practice projects demonstrating my technical
+                    learning and programming fundamentals.
+                </p>
+
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card reveal">
+
+                    <div class="project-visual project-one">📊</div>
+
+                    <div class="project-content">
+
+                        <span class="project-type">
+                            PYTHON · PANDAS · NUMPY
+                        </span>
+
+                        <h3>CSV Data Analysis</h3>
+
+                        <p>
+                            A practice project focused on reading,
+                            handling and exploring CSV datasets
+                            using Python libraries.
+                        </p>
+
+                        <span class="project-status">
+                            Practice Project
+                        </span>
+
+                    </div>
+
+                </article>
+
+                <article class="project-card reveal">
+
+                    <div class="project-visual project-two">🧠</div>
+
+                    <div class="project-content">
+
+                        <span class="project-type">
+                            PYTHON · MACHINE LEARNING
+                        </span>
+
+                        <h3>ML Prediction Practice</h3>
+
+                        <p>
+                            Exploring data preparation and
+                            basic prediction workflows while
+                            learning supervised machine learning.
+                        </p>
+
+                        <span class="project-status">
+                            Learning Project
+                        </span>
+
+                    </div>
+
+                </article>
+
+                <article class="project-card reveal">
+
+                    <div class="project-visual project-three">🌐</div>
+
+                    <div class="project-content">
+
+                        <span class="project-type">
+                            HTML · CSS · JAVASCRIPT
+                        </span>
+
+                        <h3>Personal Portfolio Website</h3>
+
+                        <p>
+                            A responsive personal portfolio
+                            website showcasing my education,
+                            skills and internship journey.
+                        </p>
+
+                        <span class="project-status">
+                            Personal Project
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CERTIFICATES AND ACHIEVEMENTS -->
+        <section class="section" id="achievements">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">BEYOND THE CLASSROOM</p>
+
+                <h2>
+                    Certificates &
+                    <span class="gradient-text">Achievements</span>
+                </h2>
+
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python Programming Training</h3>
+                    <p>Novem Company · 1 Month</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">💻</div>
+                    <h3>MS Office Training</h3>
+                    <p>Solitaire Infosys · 1 Month</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">📚</div>
+                    <h3>Basic Computer & MS Office</h3>
+                    <p>IECS, Hisar · 2 Months</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🤝</div>
+                    <h3>NSS Participation</h3>
+                    <p>Leadership and community service activities.</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🏆</div>
+                    <h3>Best Athlete</h3>
+                    <p>College-level sports achievement.</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🥇</div>
+                    <h3>Kabaddi Team Captain</h3>
+                    <p>District-level competition · Secured 2nd Position.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="section contact-section" id="contact">
+
+            <div class="contact-card reveal">
+
+                <p class="eyebrow">LET'S CONNECT</p>
+
+                <h2>
+                    Let's Build Something
+                    <span class="gradient-text">Intelligent.</span>
+                </h2>
+
+                <p>
+                    I am open to entry-level opportunities,
+                    internships and collaborations in Python,
+                    Artificial Intelligence and Machine Learning.
+                </p>
+
+                <div class="contact-actions">
+
+                    <a class="primary-button"
+                       href="mailto:sihagmanu9@gmail.com">
+                        ✉️ Email Me
+                    </a>
+
+                    <a class="secondary-button"
+                       href="https://www.linkedin.com/in/manisha-sihag-826b96426"
+                       target="_blank" rel="noopener">
+                        LinkedIn ↗️
+                    </a>
+
+                </div>
+
+                <div class="contact-email">
+
+                    <span>EMAIL ADDRESS</span>
+
+                    <p>sihagmanu9@gmail.com</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <a href="#home" class="logo">
+            MANISHA<span>.</span>
+        </a>
+
+        <p>Designed & Built with passion · 2026</p>
+
+        <p>
+            © <span id="year"></span> Manisha Sihag.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
